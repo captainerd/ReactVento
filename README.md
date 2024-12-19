@@ -44,9 +44,18 @@ The entire application is powered by the VentoCart API, meaning all content (inc
 
 ### 1. Clone the repository
 
+```Edit index.html to switch URL
+
+  <script>
+    window.siteUrl = "https://demo.ventocart.com";
+  </script>
+
+
 ```bash
 git clone https://github.com/your-repo/ventocart-react.git
 cd reactvento
 npm install
 npm run dev
+
+
 
