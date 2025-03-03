@@ -98,7 +98,7 @@ export default function ProductPage() {
     const fetchProduct = async () => {
       try {
         setLoading(true)
-        let response = await fetch(`${window.siteUrl}/index.php?route=api/home.getProduct&language=en-gb&product_id=${productId}&api=true`)
+        let response = await fetch(`${config.apiUrl}/index.php?route=api/home.getProduct&language=en-gb&product_id=${productId}&api=true`)
 
         if (!response.ok) {
           throw new Error('Failed to fetch product')
@@ -172,7 +172,7 @@ export default function ProductPage() {
 
 
   useEffect(() => {
-    document.title = `${product?.heading_title} - ${window.site_title}`;
+    document.title = `${product?.heading_title} - ${config.appName}`;
   }, [product]);
   const handleThumbnailClick = (thumbUrl) => {
     setMainImage(thumbUrl)
