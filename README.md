@@ -32,3 +32,64 @@ For more details, refer to the `apiRequest.js` file in the ReactJS project:
 
 ---
 
+ 
+# Installation & Setup Guide
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+1. **Node.js**: [Download Node.js](https://nodejs.org/).
+2. **Git**: [Download Git](https://git-scm.com/).
+3. **Text Editor**: VSCode, Sublime Text, or any text editor.
+
+---
+
+### Steps to Install and Set Up the Project
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/your-username/ReactVento.git
+   cd ReactVento
+   ```
+
+2. **Install Dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+3. **Configure API URL**:
+
+   The API URL is set in `src/config.js`. Make sure it points to your backend API.
+
+4. **Start the Development Server**:
+
+   ```bash
+   npm run dev
+   ```
+
+   The app will be available at `http://localhost:3000` (or another port if needed).
+
+---
+
+### Optional: Build the Project for Production
+
+```bash
+npm run build
+```
+
+---
+
+### Summary of Commands:
+
+```bash
+git clone https://github.com/your-username/ReactVento.git
+cd ReactVento
+npm install
+npm run dev
+```
+
+---
+ 
