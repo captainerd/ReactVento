@@ -19,7 +19,7 @@ The API endpoint is located under `/api/`, e.g., `route=api/home`. To understand
 [https://github.com/captainerd/VentoCart/blob/main/upload/catalog/controller/api/home.php](/controller/api/home.php).
 
 ### Authentication:
-Since VentoCart is headless and does not rely on conventional cookies for mobile app compatibility, all API requests must include the `apitoken` parameter, e.g., `?apitoken=xxx`.
+Since VentoCart API is headless and does not rely on conventional cookies for mobile app compatibility, all API requests must include the `apitoken` parameter, e.g., `?apitoken=xxx`.
 
 The `apitoken` is a base64-encoded JSON string containing two keys:
 - `sessionId`
