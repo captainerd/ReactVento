@@ -16,7 +16,7 @@ This is a Vite-powered frontend for VentoCart, built with ReactJS, Redux Toolkit
 Starting with VentoCart v5 and beyond, we use a dedicated controller to transform data from interactions with controllers into API-consumable JSON.
 
 The API endpoint is located under `/api/`, e.g., `route=api/home`. To understand how the API works, refer to the following controller:  
-[/catalog/controller/api/home.php](/https://github.com/captainerd/VentoCart/blob/main/upload/catalog/controller/api/home.php).
+[/catalog/controller/api/home.php](https://github.com/captainerd/VentoCart/blob/main/upload/catalog/controller/api/home.php).
 
 ### Authentication:
 Since VentoCart API is headless and does not rely on conventional cookies for mobile app compatibility, all API requests must include the `apitoken` parameter, e.g., `?apitoken=xxx`.
